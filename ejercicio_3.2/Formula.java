@@ -70,10 +70,6 @@ class Calcularadora{
         this.d = d;
         this.f = f;
 
-        // System.out.println(a); 
-        // System.out.println(b); 
-        // System.out.println(c); 
-        // System.out.println(d); 
     }
 
     public double Calcular(){
@@ -82,7 +78,7 @@ class Calcularadora{
 
         double segundaParteFormula = ( Math.sqrt( Math.pow(b, c) ) ) / (f + 9.2);
 
-        double terceraParteFormula = ( (5.6 * b) - ( Math.pow(1.78, 2.87) ) ) - ( c - d );
+        double terceraParteFormula = ( (5.6 * b) - ( Math.pow(1.78, 2.87) ) ) / ( c - d );
 
         double resultadoFinal = primeraParteFormula + segundaParteFormula + terceraParteFormula;
     
